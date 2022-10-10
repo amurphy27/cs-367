@@ -1,0 +1,9 @@
+Andrew Murphy
+Project 2
+1/28/2022
+
+1. As far as I can tell all aspects of the server and client code are working. The only thing I didn't have time to do was include
+   the byte conversions (nton or ntoh), but it should be fine since in use the same machine is running both sides.
+2. To test my code I ran the code in 2 windows to make sure that the fork was working and the games would interfere with each other.
+3. The most challenging aspect of this project for me was being stuck while is was using two sends in a row in a loop which
+   resulted in the sent data getting grumpy with each other jarbling the recieved data.

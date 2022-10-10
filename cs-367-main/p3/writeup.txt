@@ -1,0 +1,17 @@
+Andrew Murphy
+Project 3 Writeup
+
+1.
+I did not have time to even begin looking into how to implement a turn timer or a way to prematurely end the game
+when one of the clients disconnects.
+2.
+I assumed that I wouldn't need to transform client inputs from capital letters to lower case for guessing. I assumed
+that any real guesses that would need to be considered.
+3.
+I didn't have a much time to really get into a lot of testing so I just did a few trial games.
+4.
+The most challenging aspect of this project was figuring out why some things seemed random when everything lined up
+on paper, when I all I had to do was move an unrelated code chunk a lil bit...
+That and the fact that C and I don't get along well.
+5.
+If I were to come back to this I would want to put in the pieces that I didn't have time to implement.

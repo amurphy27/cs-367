@@ -1,0 +1,16 @@
+Andrew Murphy
+
+1)
+I believe everything is working, but I didn't have enough time to do a lot of testing so take that with a grain of salt. Biggest part that I wasn't able to test was the chat log which I will talk more about in the assumptions. If I had more time I would do some more testing to find out if anything wasn't working specifically the chat log. Also didn't have time to figure out how to use the hton and ntoh so actually network stuff won't work.
+
+2)
+I am assuming the printing macros in proj.h will take care of the chat log for me since the assignment decription pdf said to use the print macros in proj.h but the macros specified only took inputs relating to the contents of the message and no input for the file desciptor to write to.
+
+3)
+I did some mock conversations with myself in multiple windows of the command line using tmux. One of which I did was the example in the pdf with the lord of the rings characters.
+
+4)
+This whole thing gave me some issue but the toughest part was figuring out the the buffer i was trying to send was an array of chars and setting the first char equal to a uint32_t or uint16_t wouldn't work, cause ya know... a char is 1 byte and the unsigned ints are larger.
+
+5)
+In all honesty I would love to never come back to this assignment but if I had to I really like the idea of connecting this project to some sort of db or ai that the server can pull messages from to send the clients.
